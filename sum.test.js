@@ -4,7 +4,7 @@ const sum = require("./sum")
 describe("Addition", () => {
     //Skapa ett test inuti blocket
     it("1+2=3", () => {
-        expect(sum(1,2)).toBe(3)
+        expect(sum(1, 2)).toBe(3)
     })
 
     it("12+34=46", () => {
